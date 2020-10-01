@@ -76,11 +76,11 @@ new OmitTildeWebpackPlugin({
 
 * `deprecate` implies that a warning should be generated whenever the plugin needs to operate.
 
-  Use this to help migration from ommited tilde to appropriate use of tilde. It is not activiated by default but is **strongly encouraged**.
+  Use this to help migration from omitted tilde to appropriate use of tilde. It is not activated by default but is **strongly encouraged**.
 
 * `path` is an optional object of conditions, similar to that for [loaders](https://webpack.github.io/docs/configuration.html#module-loaders).
 
-  It filters the path in which the request is raised. It may inclued `test`, `include`, and `exclude` as (typically) regular expressions.
+  It filters the path in which the request is raised. It may include `test`, `include`, and `exclude` as (typically) regular expressions.
 
 * `verbose` implies that filtering information should be displayed.
 
